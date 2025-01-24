@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --bg-color: rgba(0, 0, 40, 1);
+  --bg-image: url(../images/cover-image-dark.png);
+  --main-title-color: rgba(219, 0, 255, 1);
+  --title-text-color: rgba(0, 0, 40, 1);
+  --description-text-color: rgba(241, 178, 206, 1);
+  --section-text-color: rgba(255, 0, 112, 1);
+  --accent-color: rgba(255, 0, 112, 1);
+  --rectangle-color: rgba(255, 0, 112, 1);
+  --button-color: rgba(255, 0, 112, 1);
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --text-font-size: 18px;
+  --main-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --normal-font-weight: normal;
+  --bold-font-weight: bold;
+}
+
+@media (width >= 768px) {
+  .header__title,
+  .footer__title {
+    --main-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
