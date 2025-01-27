@@ -19,13 +19,4 @@
   --rectangle-color: rgba(255, 0, 112, 1);
   --button-color: rgba(255, 0, 112, 1);
   --button-hover-color: rgba(255, 0, 112, 0.4);
-  --text-font-size: 18px;
-  --main-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --normal-font-weight: normal;
-  --bold-font-weight: bold;
-}
-
-.theme-dark .header__theme-menu-button_type_dark {
-  border: 1px solid var(--button-color);
-  padding-bottom: 5px;
 }

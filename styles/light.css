@@ -25,11 +25,6 @@
   display: none;
 }
 
-.theme-light .header__theme-menu-button_type_light {
-  border: 1px solid var(--button-color);
-  padding-bottom: 5px;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: rgba(255, 241, 247, 1);
